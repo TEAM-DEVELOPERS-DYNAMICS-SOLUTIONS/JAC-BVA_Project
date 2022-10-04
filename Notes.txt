@@ -1,0 +1,13 @@
+#PHP 
+## Embeber PHP y HTML de manera correcta 
+
+Importante!!
+
+no usar siempre y cuando sea necesario
+
+Separar p
+
+
+
+
+(43+44)+4 = ()
