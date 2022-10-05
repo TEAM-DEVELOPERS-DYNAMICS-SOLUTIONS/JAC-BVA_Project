@@ -22,9 +22,9 @@
       <picture class="Cabecera_IconoMenuDesplegable">
         <img class="Cabecera_IconoMenuDesplegable_Imagen" src="dist\media\images\index\menu desplegable.png" alt="menu">
       </picture> 
-      <div class="Cabecera_texto">
-        <p class="Texto" >Bella vista!</p>
-        <p class="Texto" >Ciudadela Sucre Soacha</p>
+      <div class="Cabecera_Texto">
+        <p class="Cabecera_Texto_Texto">Bella vista!</p>
+        <p class="Cabecera_Texto_Texto">Ciudadela Sucre Soacha</p>
       </div>
     </Header>
     <section class="Seccion_Donacion" id="Donacion">
@@ -42,15 +42,36 @@
       </div>
     </section>
     <footer class="PiedePagina">
-      <div class="LogoBlanco"></div>
-        <picture class="ImagenLogoBlanco">
-          <source class="LogoBlancoImagen" srcset="Dist\media\images\Index\Logo Blanco.png" media="(min-width: 600px)">
-          <img class="LogoBlancoImagenImagen" src="Dist\media\images\Index\Logo Blanco.png" alt="LogoBlanco" >
+      <div class="PiedePagina_LogoBlanco"></div>
+        <picture class="PiedePagina_LogoBlanco_Imagen">
+          <source class="PiedePagina_LogoBlanco_Imagen_Recurso" srcset="Dist\media\images\Index\Logo Blanco.png" media="(min-width: 600px)">
+          <img class="PiedePagina_LogoBlanco_Imagen_Imagen" src="Dist\media\images\Index\Logo Blanco.png" alt="LogoBlanco" >
         </picture>
-      <div class="LogoTdds"></div>
-      <div class="QuienesSomos"></div>
-      <footer class="FinaldePagina">
-
+      <div class="PiedePagina_LogoTdds">
+        <source class="PiedePagina_LogoTdds_Imagen_Recurso" srcset="" media="(min-width: 600px)">
+        <img class="PiedePagina_LogoTdds_Imagen_Imagen" src="" alt="LogoTdds">
+      </div>
+      <div class="PiedePagina_Hipervinculos">
+        <div class="piedepagina_Hipervinculos_ContendedorTexto">
+          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+        </div>
+        <div class="piedepagina_Hipervinculos_ContendedorTexto">
+          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+        </div>
+        <div class="piedepagina_Hipervinculos_ContendedorTexto">
+          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+        </div>
+        <div class="piedepagina_Hipervinculos_ContendedorTexto">
+          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+        </div>
+        <div class="piedepagina_Hipervinculos_ContendedorTexto">
+          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+        </div>
+        <div class="piedepagina_Hipervinculos_ContendedorTexto">
+          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+        </div>
+      </div>
+      <footer class="PiedePagina_FinaldePagina">
       </footer>
     </footer>
   </body>
