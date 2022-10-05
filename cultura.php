@@ -7,11 +7,9 @@
     <link rel="icon" href="C:\Users\janus\Desktop\JAC\vista\img\logo.png">
     <title>Cultura</title>
 </head>
-    <picture class="logo">
-        <source srcset="C:\Users\janus\Desktop\JAC\vista\img\logo.png" >
-        <img src="C:\Users\janus\Desktop\JAC\vista\img\logo.png" alt="logo">
-    </picture> 
+     
 <body>
+    
     <div class="Cultura">
         <picture class="imagenCultura">
             <source srcset="C:\Users\janus\Desktop\JAC\vista\img\Preocupada.png" media="(min-width: 600px)">
