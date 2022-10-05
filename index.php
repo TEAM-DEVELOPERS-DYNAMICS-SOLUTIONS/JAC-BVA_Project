@@ -41,5 +41,17 @@
         <button class="Seccion_Donacion_Boton Boton Boton-Aporta"><img class="Boton-Aporta_Imagen" src="dist\media\images\index\donar.png" height="20" width="20" alt="donar">Aporta tu granito</button>
       </div>
     </section>
+    <footer class="PiedePagina">
+      <div class="LogoBlanco"></div>
+        <picture class="ImagenLogoBlanco">
+          <source class="LogoBlancoImagen" srcset="Dist\media\images\Index\Logo Blanco.png" media="(min-width: 600px)">
+          <img class="LogoBlancoImagenImagen" src="Dist\media\images\Index\Logo Blanco.png" alt="LogoBlanco" >
+        </picture>
+      <div class="LogoTdds"></div>
+      <div class="QuienesSomos"></div>
+      <footer class="FinaldePagina">
+
+      </footer>
+    </footer>
   </body>
 </html>
