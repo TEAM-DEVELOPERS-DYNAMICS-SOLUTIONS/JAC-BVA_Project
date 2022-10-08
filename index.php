@@ -43,7 +43,25 @@
         <p class="Donacion_Texto texto">¿Nos ayudas?</p>
         <button class="Seccion_Donacion_Boton Boton Boton-Aporta"><img class="Boton-Aporta_Imagen" src="dist\media\images\index\donar.png" height="20" width="20" alt="donar">Aporta tu granito</button>
       </div>
+      </div>
+    <div class="Ubicacion">
+        <div id="tituloUbicacion">
+            <h2>Donde estamos?</h2>
+        </div>
+        <div id="TextoUbicacion">
+            <p> Estamos ubicados en la comuna   de  Ciudadela 
+                Sucre, en los  limites de 
+                Soacha con Bogota
+            </p>
+            <button class="Visita"> Ven y Visitanos </button>
+        <div class="mapaUbicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7954.3133509669115!2d-74.19004587990541!3d4.5658438367311485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f96e0c056f3%3A0x14289e57890b46f5!2sCiudadela%20Sucre%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1664893511745!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+    </div>
     </section>
+    <body>
+    
     <footer class="PiedePagina">
       <div class="PiedePagina_LogoBlanco"></div>
         <picture class="PiedePagina_LogoBlanco_Imagen">
@@ -51,30 +69,28 @@
           <img class="PiedePagina_LogoBlanco_Imagen_Imagen" src="Dist\media\images\Index\Logo Blanco.png" alt="LogoBlanco" >
         </picture>
       <div class="PiedePagina_LogoTdds">
-        <source class="PiedePagina_LogoTdds_Imagen_Recurso" srcset="" media="(min-width: 600px)">
-        <img class="PiedePagina_LogoTdds_Imagen_Imagen" src="" alt="LogoTdds">
+        <source class="PiedePagina_LogoTdds_Imagen_Recurso" srcset="dist\media\images\Index\Logo TDDS.png" media="(min-width: 600px)">
+        <img class="PiedePagina_LogoTdds_Imagen_Imagen" src="dist\media\images\Index\Logo TDDS.png" alt="LogoTdds">
       </div>
       <div class="PiedePagina_Hipervinculos">
         <div class="piedepagina_Hipervinculos_ContendedorTexto">
-          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+          <a class="piedepagina_Hipervinculos_link" href="#baner"><p Class="piedepagina_Hipervinculos_ContendedorTexto_texto">Inicio</p></a>
         </div>
         <div class="piedepagina_Hipervinculos_ContendedorTexto">
-          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+          <a class="piedepagina_Hipervinculos_link" href="#baner"><p Class="piedepagina_Hipervinculos_ContendedorTexto_texto">¿Quienes Somos?</p></a>
         </div>
         <div class="piedepagina_Hipervinculos_ContendedorTexto">
-          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+          <a class="piedepagina_Hipervinculos_link" href="#baner"><p Class="piedepagina_Hipervinculos_ContendedorTexto_texto">Proyectos</p></a>
         </div>
         <div class="piedepagina_Hipervinculos_ContendedorTexto">
-          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+          <a class="piedepagina_Hipervinculos_link" href="#baner"><p Class="piedepagina_Hipervinculos_ContendedorTexto_texto">Galeria</p></a>
         </div>
         <div class="piedepagina_Hipervinculos_ContendedorTexto">
-          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
-        </div>
-        <div class="piedepagina_Hipervinculos_ContendedorTexto">
-          <p Class="piedepagina_Hipervinculos_ContendedorTexto_texto"></p>
+          <a class="piedepagina_Hipervinculos_link" href="#baner"><p Class="piedepagina_Hipervinculos_ContendedorTexto_texto">Donaciones</p></a>
         </div>
       </div>
       <footer class="PiedePagina_FinaldePagina">
+        <p class="Piedepagina_FinaldePagina_Texto">2022 © - JAC-BVA - Desarrollado por <a class="Piedepagina_FinaldePagina_Hipervinculo" href="">TDDS</p></a>
       </footer>
     </footer>
   </body>
