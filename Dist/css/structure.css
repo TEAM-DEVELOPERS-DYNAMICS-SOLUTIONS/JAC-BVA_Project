@@ -37,15 +37,14 @@ body {
     display: flex; flex-flow: row wrap;
 }
 
-/**
-    /*este estilo permite eliminar srollbar/ 
-    no desactivar por el momento
+/*este estilo permite eliminar srollbar/ 
+no desactivar por el momento**/
 
 ::-webkit-scrollbar {
     display: none;
     scrollbar-width: 0;
 }
-**/
+
 
 main {
     width: 100%;

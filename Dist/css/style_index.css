@@ -1,0 +1,26 @@
+.Cabecera{
+    /*dimesiones*/
+    width: 100%;
+    height: auto;
+    padding: 4em;
+    /*estilos*/
+    background-color: var(--color-secudario);
+}
+
+.Cabecera_superiorcontendor{
+    /*dimensiones*/
+    width: calc(100% - 4em);
+    height: 165px;
+    /*flex*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IconoCabecera{
+    height: 50px;
+}
+
+.titulo-terciario{
+    color: white;
+}
