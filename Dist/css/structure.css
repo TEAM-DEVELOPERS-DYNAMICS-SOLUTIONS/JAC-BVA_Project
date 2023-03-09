@@ -33,8 +33,6 @@
 /* Structure dad */
 body {
     font-family: var(--font-text);
-    /*flex*/
-    display: flex; flex-flow: row wrap;
 }
 
 /*este estilo permite eliminar srollbar/ 

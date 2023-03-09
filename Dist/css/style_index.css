@@ -1,26 +1,95 @@
-.Cabecera{
-    /*dimesiones*/
-    width: 100%;
+div {
+    width: inherit;
+}
+
+.secciones {
+    width: calc(100% - 4em);
     height: auto;
     padding: 4em;
+}
+
+ /*##cabecera*/
+
+.Cabecera{
     /*estilos*/
     background-color: var(--color-secudario);
 }
 
 .Cabecera_superiorcontendor{
     /*dimensiones*/
-    width: calc(100% - 4em);
-    height: 165px;
+    height: 165px; 
     /*flex*/
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.CabeceraBotones{
+margin: 4em;
+}
+
 .IconoCabecera{
     height: 50px;
 }
 
+.Cabecera_Texto{
+    display: flex;
+}
+
+.Cabecera_Texto :nth-child(2){
+    margin-left: 0.2em;
+    text-decoration: underline;
+}
+
+/*##donacion*/
+
+.Seccion_Donacion {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+
+}
+
+/*##Donde-estamos*/
+
+.Seccion_DondeEstamos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    background-color: var(--color-terciario-claro);
+}
+
+.TextoUbicacion {
+    width: 50% ;
+    margin-right: 2em;
+}
+
+.MapaUbicacion_Ubicacion{
+    width: 100%;
+}
+
+/*##Galeria*/
+
+
+
+/*##Footer*/
+.PiedePagina{
+    background-color: #282828 /*var(--color-black-3)*/;
+}
+
+/*##textos*/
 .titulo-terciario{
     color: white;
+}
+
+.color-a{
+    color: var(--color-primario);
+}
+
+.color-b{
+    color: var(--color-terciario-claro);
+}
+
+.color-c{
+    color: var(--color-secundario-oscuro);
 }
